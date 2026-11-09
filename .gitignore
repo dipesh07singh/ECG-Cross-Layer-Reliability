@@ -1,0 +1,67 @@
+# ==========================================
+# Vivado & FPGA Build / Simulation Artifacts
+# ==========================================
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+*.wdf
+*.wpc
+*.lpr
+*.sdb
+*.reloc
+*.rlx
+*.rtti
+*.dbg
+*.xdbg
+xsim.dir/
+xsimk.exe
+
+# ==========================================
+# ML Heavy Data, Cache & Weights (> 100MB)
+# ==========================================
+data/cache/
+*.npz
+*.h5
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.bin
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# ==========================================
+# Sensitive Credentials & Secrets
+# ==========================================
+.env*
+*.key
+*.pem
+*.token
+credentials.json
+secrets.yaml
+
+# ==========================================
+# Temporary Archives & OS Metadata
+# ==========================================
+*.zip
+*.tar.gz
+*.7z
+*.rar
+.DS_Store
+Thumbs.db
